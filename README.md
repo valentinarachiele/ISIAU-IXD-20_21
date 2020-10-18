@@ -1,5 +1,5 @@
-# ISIAF-DS-20_21
+# ISIAU-IxD-20_21
 
-### GIT repository for the Design dei Servizi course at ISIA Faenza
+### GIT repository for the Design dell'Interfaccia I course in ISIA Urbino
 
 #### Fall 2020-2021
