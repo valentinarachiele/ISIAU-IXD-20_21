@@ -1,5 +1,5 @@
 # ISIAU-IxD-20_21
 
-### GIT repository for the Design dell'Interfaccia I course in ISIA Urbino
+### Repository per il corso di Design dell'Interfaccia I all'ISIA di Urbino
 
-#### Fall 2020-2021
+#### Autunno 2020-2021
