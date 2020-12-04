@@ -1,0 +1,62 @@
+html {
+    font-size: 12px;
+}
+
+body {
+    background-color: pink;
+}
+
+/* Commento in CSS */
+
+h3, h2 {
+    color:hsl(30, 4%, 4%);
+    font-size: 3rem; /* 3 * 10 = 30px*/
+}
+
+p {
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    font-family: 'Texturina', serif;
+    /* font stack */
+    /* web safe fonts */
+    font-weight: 900; 
+    font-style: italic; 
+    /* text-transform: capitalize; 
+    text-decoration: underline line-through;  */
+    /*line-height: ;*/
+    /* letter-spacing: 3px; */
+    text-align: justify; /*left, right, center*/
+    /* text-indent: -30px;
+    text-shadow: 3px 3px 2px green;  */
+    font-size: 150%; /*responsive em (M = 16px)*/
+}
+
+a:link, a:visited {
+    color: magenta;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+    font-weight: 300;
+}
+
+a:active {
+    color: green;
+}
+
+/*tutti i p DISCENDENTI di div*/
+/* div p {
+    background-color: brown;
+} */
+
+/*tutti i p ADIACENTI a div*/
+/* div + p {
+    background-color: brown;
+} */
+
+/*tutti i p direttamente FIGLI di div*/
+/* div > p {
+    background-color: brown;
+} */
+
