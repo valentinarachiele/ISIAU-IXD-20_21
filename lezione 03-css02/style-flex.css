@@ -6,18 +6,6 @@ body {
     background-color:#fafafa;
 }
 
-ul {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    padding: 0;
-    list-style: none;
-    height: 100px;
-    background-color: aquamarine;
-    align-items: baseline;
-    align-content: center;
-}
+/*per capire flex-shrink: https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_flex-shrink*/
 
-li.due {
-    order: 2;
-}
+/*per ripassare flex in generale https://www.w3schools.com/css/css3_flexbox.asp*/
