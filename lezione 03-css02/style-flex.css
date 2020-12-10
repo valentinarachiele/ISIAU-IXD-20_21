@@ -7,17 +7,39 @@ body {
 }
 
 ul {
+    list-style: none;
+    padding: 0;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding: 0;
-    list-style: none;
-    height: 100px;
-    background-color: aquamarine;
-    align-items: baseline;
-    align-content: center;
 }
 
-li.due {
+li {
+    background-color: darkseagreen;
+}
+
+li:first-of-type {
     order: 2;
+}
+
+li:nth-of-type(2) {
+    order: 1;
+}
+
+li:nth-of-type(3) {
+    order: 5;
+    flex-grow: 2;
+}
+
+li:nth-of-type(4) {
+    order: 3;
+    flex-shrink: 2;
+}
+
+li:nth-of-type(5) {
+    order: 6;
+}
+
+li:nth-of-type(6) {
+    order: 4;
 }
