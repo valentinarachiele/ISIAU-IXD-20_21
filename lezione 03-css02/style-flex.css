@@ -5,3 +5,19 @@ html {
 body {
     background-color:#fafafa;
 }
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+    height: 100px;
+    background-color: aquamarine;
+    align-items: baseline;
+    align-content: center;
+}
+
+li.due {
+    order: 2;
+}
