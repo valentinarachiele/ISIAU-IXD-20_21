@@ -6,40 +6,6 @@ body {
     background-color:#fafafa;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-}
+/*per capire flex-shrink: https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_flex-shrink*/
 
-li {
-    background-color: darkseagreen;
-}
-
-li:first-of-type {
-    order: 2;
-}
-
-li:nth-of-type(2) {
-    order: 1;
-}
-
-li:nth-of-type(3) {
-    order: 5;
-    flex-grow: 2;
-}
-
-li:nth-of-type(4) {
-    order: 3;
-    flex-shrink: 2;
-}
-
-li:nth-of-type(5) {
-    order: 6;
-}
-
-li:nth-of-type(6) {
-    order: 4;
-}
+/*per ripassare flex in generale https://www.w3schools.com/css/css3_flexbox.asp*/
