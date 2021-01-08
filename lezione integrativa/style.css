@@ -1,0 +1,78 @@
+/*Questo è il foglio di stile per questo sito ISIAU*/
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+div.column {
+    width: 20%; /* 100 / 5 */
+    overflow-y: scroll;
+    height: 99vh; /* viewport height, ovvero l'altezza della finestra del browser (vw = viewport width) */
+    padding: 0 5px;
+}
+
+div.column:not(:last-of-type) {
+    border-right: 1px solid black;
+}
+
+img, iframe {
+    max-width: 100%;
+}
+
+a {
+    border-bottom: 1px solid black;
+    color: black;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+h2, h1 {
+    font-size: 1.1rem;
+}
+
+h1.column-title {
+    position: fixed;
+}
+
+div.feeds-wrapper {
+    padding-top: 48px;
+}
+
+h3.cap {
+    padding-left: 40px;
+}
+
+article.overflow_5 h2 {
+    display: inline;
+}
+
+div.read-more-less:after {
+    content: "...";
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    font-weight: bold;
+} 
+
+div.read-more-less:hover, div.up:hover {
+    cursor: pointer;
+}
+
+div#nascosto {
+    display: none;
+}
+
+div.up {
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: none;
+} 

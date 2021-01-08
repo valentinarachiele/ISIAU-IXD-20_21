@@ -45,27 +45,18 @@ a:active {
     color: green;
 }
 
-/*tutti i p DISCENDENTI di div*/
-/* div p {
-    background-color: brown;
-} */
 
-/*tutti i p ADIACENTI a div*/
-/* div + p {
+/*tutti i p DISCENDENTI di div*/
+/*div p {
     background-color: brown;
-} */
+}*/
 
 /*tutti i p direttamente FIGLI di div*/
-/* div > p {
+/*div > p {
     background-color: brown;
-} */
+}*/
 
-
-/*background*/
-
-/*immagini*/
-
-/*z-index*/
-
-/*display*/
-
+/*tutti i p ADIACENTI a div*/
+/*div + p {
+    background-color: brown;
+}*/
